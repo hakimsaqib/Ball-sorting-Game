@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+h1 {
+  text-align: center;
+  margin: 4px;
+}
+.container {
+  background: linear-gradient(45deg, #2f9df6, #68dbdb, #aae113);
+  width: 100%;
+  height: 92vh;
+  padding: 10px;
+  padding-top: 150px;
+  display: flex;
+  gap: 5px;
+  justify-content: space-around;
+}
+.room {
+  width: auto;
+  background: linear-gradient(45deg, #2f9df6, #a71178, #c618e9);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 10px;
+  gap: 0.5px;
+  border-radius: 15px;
+  width: 70px;
+  gap: 3px;
+  transition: all ease 0.9s;
+}
+.room:hover {
+  transform: scale(97%);
+}
+.circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: white;
+  transition: all ease 0.9s;
+}
+.circle:hover {
+  scale: calc(1.1);
+}
