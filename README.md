@@ -96,7 +96,7 @@ While building this project, I practiced:
 
 **Hakim Saqib**
 
-Aspiring JavaScript & Mobile App Developer
+Aspiring JavaScript & Web Frontend Developer
 
 GitHub: https://github.com/hakimsaqib
 
